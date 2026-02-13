@@ -21,7 +21,7 @@ export default function Navbar() {
           {/* Resume button */}
           <div>
             <a
-              href="/Tejaswi_Ganji_DA_Resume.pdf"
+              href="/Users/tejaswig/tejaswi-ganji-da-portfolio/dist/TejaswiGanji_DA_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-2 rounded-full bg-white text-black font-semibold text-sm hover:bg-gray-200"
