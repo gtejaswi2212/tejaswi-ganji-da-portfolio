@@ -30,45 +30,56 @@ export const navLinks = [
   
   export const experience = [
     {
-      role: "Graduate Research Assistant — Clinical Data Analytics",
+      role: "Bussiness Intelligence & Data Analyst - Turning Educational Data into Strategic Foresight",
+      company: "Chicago Education Advocacy Cooperative",
+      period: "Jan 2025 – Present",
+      paragraphs: [
+        "Building scalable data pipelines & feature engineering workflows powering forecasting & anomaly detection on operational datasets.",
+        "Implementing rigorous data validation and schema contracts to ensure reliability of ML inputs and downstream insights. ",
+      
+      ],
+    },
+
+    {
+      role: "Data Analyst – Research & Product Analytics | Building Trust Through Data Quality",
       company: "Stony Brook University",
       period: "Jan 2024 – Present",
-      bullets: [
-        "Standardized and processed 1B+ electronic health records using Python, PySpark, and SQL ETL pipelines on AWS S3.",
-        "Built Random Forest / Logistic Regression models for clinical risk prediction and dementia risk stratification (AUC ~0.87).",
-        "Designed Tableau / Power BI dashboards with KPI, ROC, and risk-trend visuals to support clinical decision-making.",
-        "Mentored research interns on data wrangling, model evaluation, and governance best practices.",
+      paragraphs: [
+        "At Stony Brook University, I faced a common challenge: 5 million records that nobody fully trusted. I started where it mattered most, building production grade data models with dimensional schemas that brought accuracy to 99.7%.\n",
+        
+        "But clean data is only half the battle. I established a governance framework across 50 attributes with automated validation, cutting data quality issues by 78%. This wasn't just technical work, it was about giving stakeholders confidence in their decisions.\n",
+        "With reliable infrastructure in place, I developed 15+ predictive metrics from complex longitudinal data, transforming raw numbers into clear insights that actually influenced decisions. Working closely with cross-functional teams, I became the bridge between business questions and technical answers.\n"
       ],
     },
     {
-      role: "Data Analyst",
+      role: "Data Analyst - Scaling Retail Analytics at Enterprise Speed",
       company: "Accenture",
       period: "Oct 2021 – Dec 2023",
-      bullets: [
-        "Automated KPI dashboards in Power BI and Excel, reducing reporting time by ~35%.",
-        "Built Python + SQL + Power Query automations, cutting report latency by ~40% and improving data accuracy by ~30%.",
-        "Delivered real-time performance dashboards across multiple client divisions for predictive trend analysis.",
-        "Collaborated with DevOps teams (Docker, Jenkins, Kubernetes, Redis) to productionize analytics workloads.",
+      paragraphs: [
+        "At Accenture, I worked on systems where downtime wasn't an option. Retail platforms processing 5 million transactions daily. My challenge was making them faster and more reliable simultaneously.",
+        "I redesigned data models and optimized queries, achieving 60% performance gains while supporting schema transformations for 2 million+ users. The key? Zero-downtime migrations backed by rigorous governance, no user ever felt the change happening beneath them.",
+        "Reliability became my obsession. I built automated quality monitoring with version-controlled validation rules, cutting production incidents by 30%. But speed mattered too. By partnering closely with product managers and BI teams to define the right KPIs, I helped the organization make decisions 40% faster.",
+        "I also embraced AI-assisted development early, using generative tools to optimize SQL queries and accelerate delivery by 20% proving that the right technology amplifies good analytical thinking.",
       ],
     },
   ];
   
   export const projects = [
     {
-      title: "TravelWise – Adaptive RAG Travel Assistant",
+      title: "Product Performance Analytics Dashboard",
       tag: "Featured Project",
       description:
-        "Adaptive NYC travel assistant using LangGraph + FAISS + Flask that delivers real-time, context-aware recommendations and ~30% better query relevance through retrieval-aware routing.",
-      stack: ["LangGraph", "FAISS", "Flask", "LLM / RAG"],
-      link: "https://github.com/gtejaswi2212/TravelWise-Project-Using-RAG", // update if different
+        "Built end-to-end Looker solution with LookML models tracking product design, sales, and inventory metrics across 50K+ SKUs, enabling 35% faster trend identification.",
+      stack: ["LLookML, SQL, Looker, BigQuery"],
+      // link: "https://github.com/gtejaswi2212/TravelWise-Project-Using-RAG", // update if different
     },
     {
-      title: "Credit Risk Modeling & Default Scoring",
+      title: "Retail Demand Forecasting & Predictive Analytics",
       tag: "Featured Project",
       description:
-        "LightGBM credit risk model (AUC 0.93) on 5M+ financial records, reducing false positives by 28% with explainable Tableau dashboards.",
-      stack: ["Python", "LightGBM", "SQL / AWS S3", "Tableau"],
-      link: "https://github.com/gtejaswi2212", // plug correct repo
+        "Developed predictive models using 5M+ transactions to forecast seasonal patterns and customer behavior, improving inventory planning accuracy by 28%.",
+      stack: ["Python, SQL, scikit-learn, Tableau", "Tableau"],
+      // link: "https://github.com/gtejaswi2212", // plug correct repo
     },
     {
       title: "Retail Sales Performance Dashboard",
@@ -79,12 +90,12 @@ export const navLinks = [
       link: "https://github.com/gtejaswi2212/retail-sales-performance-dashboard",
     },
     {
-      title: "Customer Churn Prediction",
+      title: "Product Design Data Pipeline & Quality Framework",
       tag: "Featured Project",
       description:
-        "Ensemble churn models (Random Forest, XGBoost) achieving ~89% accuracy and cutting analysis time by ~40%.",
-      stack: ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
-      link: "https://github.com/gtejaswi2212/bank-customer-churn-prediction",
+        "Engineered automated pipeline integrating product specs, timelines, and sourcing data for 25K+ records, reducing manual reconciliation by 70% through governance framework.",
+      stack: ["Python, SQL, PostgreSQL, Git"],
+      //link: "https://github.com/gtejaswi2212/bank-customer-churn-prediction",
     },
     {
       title: "Customer Sentiment Analysis",

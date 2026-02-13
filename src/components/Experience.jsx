@@ -82,7 +82,7 @@ export default function Experience() {
                 <p className="text-sm text-gray-300 mb-4">{job.company}</p>
 
                 <ul className="space-y-2 text-sm text-gray-300">
-                  {job.bullets.map((b) => (
+                  {job.paragraphs.map((b) => (
                     <li key={b} className="flex gap-3 items-start">
                       <span className="mt-[6px] h-[6px] w-[6px] rounded-full bg-emerald-400" />
                       <span>{b}</span>
