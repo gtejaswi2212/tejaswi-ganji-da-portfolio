@@ -39,13 +39,12 @@ export default function Hero() {
           </h1>
 
           <h2 className="text-2xl md:text-3xl text-gray-300 mt-3 font-semibold">
-            Data Analyst & BI Engineer
+            Data Scientist · Generative AI & Production ML
           </h2>
 
           <p className="text-gray-400 mt-6 max-w-xl">
-            I specialize in analytics, KPI dashboards, SQL pipelines,
-            automations, and business intelligence systems that help companies
-            make high-impact, data-driven decisions.
+            I build end-to-end AI systems—RAG pipelines, LLM integration, and MLOps—that run in production.
+            I translate complex AI into measurable business impact and explainable insights for stakeholders.
           </p>
 
           <div className="flex gap-4 mt-8">
@@ -105,14 +104,12 @@ export default function Hero() {
             >
               <p className="text-gray-300 tracking-widest text-xs mb-2">FOCUS</p>
               <p className="text-lg font-semibold text-gray-200 leading-snug">
-                Business Intelligence <br />
-                Analytics & Reporting
+                End-to-End AI <br />
+                Production MLOps
               </p>
             </motion.div>
 
             {/* FLOATING LABELS */}
-
-            {/* SQL */}
             <motion.span
               animate={{ y: [0, 4, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
@@ -121,16 +118,9 @@ export default function Hero() {
                 border border-emerald-400 rounded-full bg-black/60
               "
             >
-              SQL • ETL Pipelines
+              RAG • LLMs
             </motion.span>
 
-        
-
-
-
-
-
-            {/* Power BI / Tableau */}
             <motion.span
               animate={{ y: [3, -3, 3] }}
               transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut" }}
@@ -139,10 +129,9 @@ export default function Hero() {
                 border border-sky-400 rounded-full bg-black/60
               "
             >
-              Power BI • Tableau
+              TensorFlow • PyTorch
             </motion.span>
 
-            {/* Forecasting */}
             <motion.span
               animate={{ x: [-4, 4, -4] }}
               transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
@@ -151,10 +140,9 @@ export default function Hero() {
                 border border-orange-400 rounded-full bg-black/60
               "
             >
-              KPIs • Forecasting
+              AWS • MLOps
             </motion.span>
 
-            {/* Excel Automation */}
             <motion.span
               animate={{ x: [4, -4, 4] }}
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
@@ -163,7 +151,7 @@ export default function Hero() {
                 border border-fuchsia-400 rounded-full bg-black/60
               "
             >
-              Excel • Automation
+              LangChain • FAISS
             </motion.span>
           </motion.div>
         </motion.div>

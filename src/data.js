@@ -1,117 +1,104 @@
 export const navLinks = [
-    { id: "about", label: "01. About" },
-    { id: "experience", label: "02. Experience" },
-    { id: "projects", label: "03. Projects" },
-    { id: "contact", label: "04. Contact" },
-  ];
-  
-  export const skills = [
-    "Python (Pandas, NumPy)",
-    "SQL (CTEs, Window Functions)",
-    "PySpark / ETL Pipelines",
-    "AWS S3 / Snowflake",
-    "Scikit-learn / LightGBM",
-    "TensorFlow / VGG-19",
-    "LLMs / RAG (LangGraph, FAISS)",
-    "Predictive Modeling",
-    "Power BI / Tableau",
-    "KPI Dashboards & Forecasting",
-    "Data Governance / QA",
-    "Docker • Kubernetes • CI/CD",
-  ];
-  
-  export const skillOrbits = [
-    { label: "LLMs / RAG", color: "text-emerald-400" },
-    { label: "Data Engineering", color: "text-sky-400" },
-    { label: "ML / Modeling", color: "text-orange-400" },
-    { label: "Dashboards & BI", color: "text-fuchsia-400" },
-    { label: "Cloud & MLOps", color: "text-lime-400" },
-  ];
-  
-  export const experience = [
-    {
-      role: "Bussiness Intelligence & Data Analyst - Turning Educational Data into Strategic Foresight",
-      company: "Chicago Education Advocacy Cooperative",
-      period: "Jan 2025 – Present",
-      paragraphs: [
-        "Building scalable data pipelines & feature engineering workflows powering forecasting & anomaly detection on operational datasets.",
-        "Implementing rigorous data validation and schema contracts to ensure reliability of ML inputs and downstream insights. ",
-      
-      ],
-    },
+  { id: "about", label: "01. About" },
+  { id: "experience", label: "02. Experience" },
+  { id: "projects", label: "03. Projects" },
+  { id: "education", label: "04. Education" },
+  { id: "contact", label: "05. Contact" },
+];
 
-    {
-      role: "Data Analyst – Research & Product Analytics | Building Trust Through Data Quality",
-      company: "Stony Brook University",
-      period: "Jan 2024 – Present",
-      paragraphs: [
-        "At Stony Brook University, I faced a common challenge: 5 million records that nobody fully trusted. I started where it mattered most, building production grade data models with dimensional schemas that brought accuracy to 99.7%.\n",
-        
-        "But clean data is only half the battle. I established a governance framework across 50 attributes with automated validation, cutting data quality issues by 78%. This wasn't just technical work, it was about giving stakeholders confidence in their decisions.\n",
-        "With reliable infrastructure in place, I developed 15+ predictive metrics from complex longitudinal data, transforming raw numbers into clear insights that actually influenced decisions. Working closely with cross-functional teams, I became the bridge between business questions and technical answers.\n"
-      ],
-    },
-    {
-      role: "Data Analyst - Scaling Retail Analytics at Enterprise Speed",
-      company: "Accenture",
-      period: "Oct 2021 – Dec 2023",
-      paragraphs: [
-        "At Accenture, I worked on systems where downtime wasn't an option. Retail platforms processing 5 million transactions daily. My challenge was making them faster and more reliable simultaneously.",
-        "I redesigned data models and optimized queries, achieving 60% performance gains while supporting schema transformations for 2 million+ users. The key? Zero-downtime migrations backed by rigorous governance, no user ever felt the change happening beneath them.",
-        "Reliability became my obsession. I built automated quality monitoring with version-controlled validation rules, cutting production incidents by 30%. But speed mattered too. By partnering closely with product managers and BI teams to define the right KPIs, I helped the organization make decisions 40% faster.",
-        "I also embraced AI-assisted development early, using generative tools to optimize SQL queries and accelerate delivery by 20% proving that the right technology amplifies good analytical thinking.",
-      ],
-    },
-  ];
-  
-  export const projects = [
-    {
-      title: "Product Performance Analytics Dashboard",
-      tag: "Featured Project",
-      description:
-        "Built end-to-end Looker solution with LookML models tracking product design, sales, and inventory metrics across 50K+ SKUs, enabling 35% faster trend identification.",
-      stack: ["LLookML, SQL, Looker, BigQuery"],
-      // link: "https://github.com/gtejaswi2212/TravelWise-Project-Using-RAG", // update if different
-    },
-    {
-      title: "Retail Demand Forecasting & Predictive Analytics",
-      tag: "Featured Project",
-      description:
-        "Developed predictive models using 5M+ transactions to forecast seasonal patterns and customer behavior, improving inventory planning accuracy by 28%.",
-      stack: ["Python, SQL, scikit-learn, Tableau", "Tableau"],
-      // link: "https://github.com/gtejaswi2212", // plug correct repo
-    },
-    {
-      title: "Retail Sales Performance Dashboard",
-      tag: "Featured Project",
-      description:
-        "Multi-page Tableau dashboard unifying sales, marketing, and inventory data, improving decision speed by ~30%.",
-      stack: ["Tableau", "SQL", "Excel", "Forecasting"],
-      link: "https://github.com/gtejaswi2212/retail-sales-performance-dashboard",
-    },
-    {
-      title: "Product Design Data Pipeline & Quality Framework",
-      tag: "Featured Project",
-      description:
-        "Engineered automated pipeline integrating product specs, timelines, and sourcing data for 25K+ records, reducing manual reconciliation by 70% through governance framework.",
-      stack: ["Python, SQL, PostgreSQL, Git"],
-      //link: "https://github.com/gtejaswi2212/bank-customer-churn-prediction",
-    },
-    {
-      title: "Customer Sentiment Analysis",
-      tag: "Featured Project",
-      description:
-        "NLP pipeline on 50K+ reviews with spaCy / TextBlob, visualized via Tableau dashboards for product prioritization.",
-      stack: ["Python", "NLP", "Tableau", "TextBlob"],
-      link: "https://github.com/gtejaswi2212",
-    },
-    {
-      title: "Supply Chain Delay Prediction",
-      tag: "Featured Project",
-      description:
-        "Logistic regression and random forest models to predict shipment delays with 18% higher accuracy and alerting dashboards.",
-      stack: ["Python", "Scikit-learn", "SQL", "ETL"],
-      link: "https://github.com/gtejaswi2212",
-    },
-  ];
-  
+export const skills = [
+  "Python • SQL • R • C++ • Java",
+  "TensorFlow • PyTorch • LightGBM • XGBoost",
+  "LangChain • LangGraph • FAISS • RAG Pipelines",
+  "LLM Integration (GPT, Claude) • Prompt Engineering",
+  "Agentic Workflows • Vector Databases",
+  "AWS (S3, Lambda, SageMaker) • Azure • GCP (BigQuery, Vertex AI)",
+  "PySpark • Databricks • Kafka • ETL/ELT",
+  "Docker • Kubernetes • CI/CD • MLOps",
+  "Predictive Modeling • Model Monitoring",
+];
+
+export const skillOrbits = [
+  { label: "Generative AI / RAG", color: "text-emerald-400" },
+  { label: "ML Engineering", color: "text-sky-400" },
+  { label: "Cloud & MLOps", color: "text-orange-400" },
+  { label: "Data Engineering", color: "text-fuchsia-400" },
+  { label: "Production Systems", color: "text-lime-400" },
+];
+
+export const experience = [
+  {
+    role: "Data Scientist – Explainable AI & Agentic Workflows",
+    company: "Chicago Education Advocacy Cooperative",
+    location: "Remote",
+    period: "Jan 2025 – Present",
+    paragraphs: [
+      "Building explainable AI systems and intelligent agentic workflows to support education advocacy and decision-making.",
+      "Designing and deploying end-to-end AI solutions that translate complex models into actionable insights for non-technical stakeholders.",
+    ],
+  },
+  {
+    role: "Data Analyst – Research & Product Analytics",
+    company: "Stony Brook University",
+    period: "Jan 2024 – Present",
+    paragraphs: [
+      "Built production-grade data models with dimensional schemas, bringing accuracy to 99.7% across 5M+ records.",
+      "Established a governance framework across 50 attributes with automated validation, cutting data quality issues by 78%.",
+      "Developed 15+ predictive metrics from complex longitudinal data; bridged business questions and technical answers for cross-functional teams.",
+    ],
+  },
+  {
+    role: "Data Analyst – Scaling Retail Analytics at Enterprise Speed",
+    company: "Accenture",
+    period: "Oct 2021 – Dec 2023",
+    paragraphs: [
+      "Redesigned data models and optimized queries on retail platforms processing 5M+ transactions daily, achieving 60% performance gains.",
+      "Supported schema transformations for 2M+ users with zero-downtime migrations and rigorous governance.",
+      "Built automated quality monitoring with version-controlled validation rules, cutting production incidents by 30%.",
+      "Partnered with product and BI teams to define KPIs, helping the organization make decisions 40% faster; used AI-assisted development to accelerate delivery by 20%.",
+    ],
+  },
+];
+
+export const projects = [
+  {
+    title: "E-Commerce RAG Pipeline",
+    tag: "Featured Project",
+    description:
+      "Built an adaptive RAG system improving search relevance by 30% and reducing hallucination by 40%. End-to-end pipeline with retrieval, reranking, and LLM integration for production use.",
+    stack: ["Python", "LangChain", "FAISS", "RAG", "LLM"],
+    link: "https://github.com/gtejaswi2212",
+  },
+  {
+    title: "Credit Risk Scoring ML Pipeline",
+    tag: "Featured Project",
+    description:
+      "Developed full-stack ML pipeline on 5M+ records for credit risk scoring. Reduced false positives by 28% with interpretable models and production monitoring.",
+    stack: ["Python", "LightGBM", "SQL", "ETL", "MLOps"],
+    link: "https://github.com/gtejaswi2212",
+  },
+  {
+    title: "Medical Imaging Classification",
+    tag: "Featured Project",
+    description:
+      "Fine-tuned deep learning model achieving 97% accuracy on 25K+ HIPAA-regulated medical images. Deployed with robust validation and monitoring.",
+    stack: ["Python", "TensorFlow", "PyTorch", "Deep Learning"],
+    link: "https://github.com/gtejaswi2212",
+  },
+];
+
+export const education = [
+  {
+    degree: "MS Data Science",
+    school: "Stony Brook University",
+    period: "2024 – 2025",
+    coursework: [
+      "Statistical Computing",
+      "Predictive Modeling",
+      "Big Data Analysis",
+      "NLP",
+      "Large Language Models",
+      "MLOps",
+    ],
+  },
+];

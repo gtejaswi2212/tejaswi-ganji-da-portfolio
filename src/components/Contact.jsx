@@ -45,9 +45,9 @@ export default function Contact() {
           transition={{ duration: 0.7 }}
           className="text-sm text-gray-300 leading-relaxed mb-10"
         >
-          I’m actively looking for roles and collaborations in Data Engineering,
-          BI Analytics, and systems that blend SQL pipelines, dashboards,
-          automation, and real-world insights.  
+          I’m actively looking for roles and collaborations in Data Science, Generative AI,
+          MLOps, and end-to-end ML systems. If you're building production AI
+          or data pipelines.  
           If that sounds like you—let’s talk.
         </motion.p>
 

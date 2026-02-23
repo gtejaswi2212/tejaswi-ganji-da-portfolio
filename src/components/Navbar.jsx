@@ -11,28 +11,23 @@ export default function Navbar() {
           </div>
   
           {/* Nav links */}
-          <div className="hidden md:flex gap-10 text-sm text-gray-300">
-            <a href="#about" className="hover:text-white">01. About</a>
-            <a href="#experience" className="hover:text-white">02. Experience</a>
-            <a href="#projects" className="hover:text-white">03. Projects</a>
-            <a href="#contact" className="hover:text-white">04. Contact</a>
+          <div className="hidden md:flex gap-8 text-sm text-gray-300">
+            <a href="#about" className="hover:text-white transition">01. About</a>
+            <a href="#experience" className="hover:text-white transition">02. Experience</a>
+            <a href="#projects" className="hover:text-white transition">03. Projects</a>
+            <a href="#education" className="hover:text-white transition">04. Education</a>
+            <a href="#contact" className="hover:text-white transition">05. Contact</a>
           </div>
-  
+
           {/* Resume button */}
-          <div>
-            <a
-              href="dist/Tejaswi_Ganji_DA_Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-5 py-2 rounded-full bg-white text-black font-semibold text-sm hover:bg-gray-200"
-
-            >
-            <a
-/>
-
-              Resume
-            </a>
-          </div>
+          <a
+            href="/Tejaswi_Ganji_DA_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-2 rounded-full bg-white text-black font-semibold text-sm hover:bg-gray-200 transition"
+          >
+            Resume
+          </a>
         </nav>
       </header>
     );
