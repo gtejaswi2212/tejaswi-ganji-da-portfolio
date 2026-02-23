@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import SkillsOrbit from "./components/SkillsOrbit";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Particles from "./components/Particles";
@@ -21,6 +22,7 @@ function App() {
         <SkillsOrbit />
         <Experience />
         <Projects />
+        <Education />
         <Contact />
       </main>
 

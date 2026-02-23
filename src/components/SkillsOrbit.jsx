@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { skills } from "../data";
-import myPhoto from "../assets/my_photo.jpg"; // ← put your image in /src/assets/
 
 export default function SkillsOrbit() {
   return (
@@ -33,13 +32,16 @@ export default function SkillsOrbit() {
           </h2>
 
           <p className="text-gray-300 text-sm leading-relaxed mb-4">
-            I’m a data-focused engineer and MS Data Science student at Stony Brook University,
-            working on clinical analytics, dashboards, and reproducible data pipelines.
+            I’m a Data Scientist with 4+ years building end-to-end AI systems, RAG pipelines,
+            LLM integration, and production ML. I've deployed generative AI solutions, predictive
+            models, and data engineering pipelines at scale—and I'm passionate about translating
+            complex AI for non-technical stakeholders with measurable business impact.
           </p>
 
           <p className="text-gray-300 text-sm leading-relaxed mb-4">
-            I build predictive models, create high-signal dashboards, automate reporting,
-            and support decision-making through clean data systems and explainable analytics.
+            I design scalable ETL pipelines (3M+ records daily), develop models on HIPAA-regulated
+            healthcare data, and optimize systems for reliability and speed. What sets me apart is
+            the combination of production deployment and cross-functional collaboration.
           </p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 text-sm mt-4">
@@ -52,7 +54,7 @@ export default function SkillsOrbit() {
           </ul>
         </motion.div>
 
-        {/* RIGHT SIDE — YOUR PHOTO */}
+        {/* RIGHT SIDE — Photo or initials placeholder; add my_photo.jpg to src/assets to show photo */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -61,20 +63,20 @@ export default function SkillsOrbit() {
           className="flex items-center justify-center"
         >
           <div className="relative">
-            <img
-              src={myPhoto}
-              alt="Tejaswi Ganji"
+            <div
               className="
-                w-64 h-64 md:w-80 md:h-80 rounded-3xl object-cover
+                w-64 h-64 md:w-80 md:h-80 rounded-3xl
                 border border-white/10 shadow-2xl
+                bg-gradient-to-br from-emerald-500/20 via-sky-500/10 to-transparent
+                flex items-center justify-center
               "
-            />
-
-            {/* Glow behind image */}
+            >
+              <span className="text-5xl md:text-6xl font-bold text-white/90 tracking-tight">TG</span>
+            </div>
             <div className="
               absolute inset-0 rounded-3xl blur-3xl
               bg-[radial-gradient(circle,rgba(16,185,129,0.25),transparent_60%)]
-            "></div>
+            " />
           </div>
         </motion.div>
 
